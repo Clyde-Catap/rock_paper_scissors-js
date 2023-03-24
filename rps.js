@@ -1,5 +1,5 @@
 function GetComputerchoice() {
-    let choices = ["Rock", "Paper", "Scissors"]
+    const choices = ["Rock", "Paper", "Scissors"]
     return choices[Math.floor(Math.random()*choices.length)]
 }
 
