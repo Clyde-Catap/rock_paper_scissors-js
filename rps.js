@@ -13,10 +13,10 @@ function GetPlayerchoice(){
 
 function Playgame() {
 
-    let Score = 0
-    let comp_score = 0
-    let player = GetComputerchoice()
-    let comp = GetPlayerchoice()
+    let Score = 0;
+    let comp_score = 0;
+    let player = GetComputerchoice();
+    let comp = GetPlayerchoice();
 
 if (player == comp) {
 
